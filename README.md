@@ -7,7 +7,7 @@ This script was created to reduce large SQL output files into smaller batches fo
 ---
 # USAGE
 - Add the large file to the input directory at ./input/
-- Open the script file: script.js
+- Open the script file: app.js
 - Change the user parameters: 
 ```
 // USER DEFINED PARAMETERS
@@ -19,7 +19,7 @@ columnDelimiter       - The character delimiter between columns. i.e. comma (','
 ```
 - run this command in the terminal:
 ```
-node script.js
+node app.js
 ```
 - retrieve result from the output folder: ./output/
 ---
